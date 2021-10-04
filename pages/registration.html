@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="../style/registration.css" />
+  <link rel="stylesheet" type="text/css" href="../style/header.css" />
+  <link rel="stylesheet" type="text/css" href="../style/footer.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="navbar">
+        <div class="navbar_items">
+          <a href="#">Click me go there</a>
+        </div>
+        <div class="navbar_items">
+          <a href="#">Click me go there</a>
+        </div>
+        <div class="navbar_items">
+          <a href="#">Click me go there</a>
+        </div>
+        <div class="navbar_items">
+          <a href="#">Click me go there</a>
+        </div>
+      </div>
+    </div>
+    <div class="register_form">
+      <div class="form_title">
+        Registration
+      </div>
+      <!-- Registration Form -->
+      <form class="form">
+        <table>
+          <tr>
+            <td class="input_title"><label for="email">E-mail:</label></td>
+            <td><input type="email" id="email" placeholder=" Please enter your email address"></td>
+          </tr>
+          <tr>
+            <td class="input_title"><label for="nickname">Nickname:</label></td>
+            <td><input type="text" id="nickname" placeholder="enter nickname"></td>
+          </tr>
+          <tr>
+            <td class="input_title"><span>gender:</span></td>
+            <td>
+              <label for="male">man</label>
+              <input type="radio" name="sex" id="male" />
+              <label for="female">woman</label>
+              <input type="radio" name="sex" id="female" />
+            </td>
+          </tr>
+          <tr>
+            <td class="input_title"><label for="password">password:</label></td>
+            <td><input type="password" id="password" placeholder="enter your PIN"></td>
+          </tr>
+          <tr>
+            <td class="input_title"><label for="rePassword">rePassword:</label></td>
+            <td><input type="password" id="rePassword" placeholder="Reconfirm Password"></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="button_box"><button>Submit</button></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div class="footer">footer</div>
+  </div>
+</body>
+</html>
