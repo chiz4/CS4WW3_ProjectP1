@@ -1,0 +1,66 @@
+.container {
+  min-width: 300px;
+}
+/* Wrap the div of the form */
+.sub_form {
+  width: 350px;
+  /* height: 500px; */
+  margin: 0 auto;
+  color: rgb(53,54,58);
+  border-radius: 20px;
+  border: 2px rgb(73,168,245) solid;
+  box-shadow: 10px 10px 5px #888888;
+}
+textarea {
+  height: 100px;
+  width: 280px;
+  max-width: 280px;
+}
+/* form */
+.sub_form form{
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+label {
+  margin: 5px 0px;
+}
+/* sub_title headline */
+.sub_title {
+  background-color: rgb(73,168,245);
+  margin-top: 25px;
+  height: 50px;
+  font: 24px bolder;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+}
+/* The style of the input box */
+input {
+  border: 1px solid rgb(196,199,206);
+  border-radius: 5px;
+  height: 25px;
+  padding-left:5px;
+}
+input:focus {
+  outline:none;
+  border: 1px solid rgb(78,110,242);
+}
+/* Button style */
+button {
+  margin: 0 auto;
+  width: 80%;
+  height: 40px;
+  font-size: 14px;
+  margin-top: 10px;
+  background-color: rgb(66,165,245);
+  color: white;
+  border: white 1px solid;
+}
+
+button:hover{
+  background-color: rgb(69,183,254);
+  cursor: pointer;
+}
