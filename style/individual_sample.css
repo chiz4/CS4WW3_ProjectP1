@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(246,246,246);
+}
+/* Mask the header's native style */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  min-width: 300px;
+}
+.sample_detail {
+  background-color: rgb(246,246,246);
+}
+.sample_main {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+/* Mobile adaptation */
+@media screen and (max-width:900px){
+  .sample_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sample_img {
+    margin-top: 30px;
+  }
+  .sample_img img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .sample_img img{
+    width: 250px;
+    height: 210px;
+  }
+}
+
+h3 {
+  color: black;
+}
+.sample_information {
+  display: flex;
+  flex-direction: column;
+  color: rgb(102,102,102);
+}
+.sample_information div {
+  margin: 10px 0px;
+}
+/* Adjust font styles and shorten text length */
+.sample_title, .sample_evaluate, .sample_local, .sample_phone{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.comment_title {
+  margin: 20px 0px;
+  font: 18px bolder;
+  text-align: center;
+}
+.comment {
+  width: 80%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.comment_items {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: 1px solid silver;
+  border: white 1px solid;
+  background-color: #fff;
+  margin: 10px 0px;
+}
+.comment_userimg {
+  border-radius: 50px;
+}
+.comment_userimg img {
+  width: 70px;
+  border-radius: 50px;
+}
+.comment_information {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.user_name, .comment_evaluate {
+  font: 14px;
+}
+.user_comment {
+  margin-top: 5px;
+}
