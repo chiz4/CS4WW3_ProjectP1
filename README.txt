@@ -5,6 +5,7 @@ ZeChen Chi, chiz4, 400176376, 18.224.253.201
 Jianing Fan, fanj37, 400178530, 18.190.45.109
 
 Answers of add-on 2:
+
 1.
   These are two normal zoom in and zoom out images,
   the big one for PC and the small one for small screen devices,
